@@ -238,7 +238,7 @@ body {
               display:block;
               font-size:14px;
               color:#fff;
-              background:#0061B1;
+              background:#0A79CE;
               width:138px;
               line-height:38px;
               border-radius:6px;
@@ -314,11 +314,11 @@ body {
         min-height:300px;
 
         div.container {
-          padding-top:30px;
+          padding-top:40px;
           padding-bottom:30px;
 
           @media (min-width: $screen-size-pc) {
-            padding-top:50px;
+            padding-top:60px;
             padding-bottom:50px;
           }
 
@@ -358,11 +358,314 @@ body {
           h3.stitle {
             text-align:center;
             font-size:20px;
-            margin:0 0 20px;
+            margin:0 0 30px;
             font-weight:800;
+            word-break:keep-all;
 
             @media (min-width: $screen-size-pc) {
-              font-size:30px;
+              font-size:40px;
+            }
+
+            &::after {
+              content:"";
+              display:block;
+              width:60px;
+            }
+          }
+
+
+          u {
+            text-decoration:none;
+            font-weight:500;
+            color:#D64646;
+          }
+
+          p.text {
+            margin:0 0 10px;
+            font-size:14px;
+            color:#555;
+            word-break:keep-all;
+
+            @media (min-width: $screen-size-pc) {
+              font-size:16px;
+            }
+
+            &.center {
+              text-align:center;
+            }
+
+          }
+
+          p.attention {
+            position:relative;
+            padding:0 0 0 18px;
+            margin:0 0 10px;
+            font-size:14px;
+            color:#555;
+            word-break:keep-all;
+
+            @media (min-width: $screen-size-pc) {
+              font-size:16px;
+              padding:0 0 0 20px;
+              
+            }
+
+            &::before {
+              content:"※";
+              display:block;
+              position:absolute;
+              left:0;
+              top:0;
+
+            }
+
+            @media (min-width: $screen-size-pc) {
+              font-size:16px;
+            }
+
+            span {
+              display:block;
+            }
+
+          }
+
+          dl.text-box {
+            margin:20px 0;
+
+            @media (min-width: $screen-size-pc) {
+
+              width:100%;
+              
+            }
+            
+            dt {
+              background:#0A79CE;
+              padding:10px;
+              text-align:center;
+              color:#fff;
+              font-size:16px;
+              font-weight:500;
+
+              @media (min-width: $screen-size-pc) {
+                float:left;
+                width:260px;
+                height:100%;
+                text-align:left;
+                padding:30px;
+                font-size:26px;
+                font-weight:600;
+                background:none;
+                color:#222;
+                
+              }
+              
+            }
+
+            dd {
+              padding:10px;
+              margin:0 0 20px;
+              border:1px solid #0A79CE;
+              font-size:14px;
+
+              @media (min-width: $screen-size-pc) {
+                position:relative;
+                padding:30px 30px 30px 280px;
+                min-height:100px;
+                border-color:#ccc;
+                font-size:16px;
+
+                &::before {
+                  content:"";
+                  display:block;
+                  position:absolute;
+                  z-index:-1;
+                  left: 240px;
+                  top:30px;
+                  bottom:30px;
+                  width:1px;
+                  background:#ccc;
+                }
+              }
+
+              ul.text {
+                list-style:none;
+                margin:0 0 20px;
+                padding:0;
+
+                li {
+                  position:relative;
+                  padding:0 0 0 14px;
+                  margin:0 0 6px;
+                  font-size:14px;
+                  word-break:keep-all;
+
+                  @media (min-width: $screen-size-pc) {
+                    font-size:16px;
+                    
+                  }
+
+                  &::before {
+                    content:"";
+                    display:block;
+                    position:absolute;
+                    left:0;
+                    top:8px;
+                    width:3px;
+                    height:3px;
+                    background:#999;
+
+                  }
+
+                  div.ex-box {
+                    background:#f4f4f4;
+                    padding:10px;
+                    margin:10px 0;
+
+                    @media (min-width: $screen-size-pc) {
+                      padding:20px;
+                      margin:20px 0;
+                      
+                    }
+
+                    strong {
+                      display:block;
+                      font-weight:600;
+                      margin:0 0 5px;
+                    }
+                  }
+                }
+              }
+
+              ul.chart {
+                list-style:none;
+                margin:0;
+                padding:0;
+                font-size:0;
+
+                li {
+                  display:inline-block;
+                  position:relative;
+                  font-size:14px;
+                  background:#A8BFD4;
+                  vertical-align:top;
+                  border-radius:10px;
+                  margin:0 30px 10px 0;
+                  text-align:center;
+                  padding:20px 0;
+                  width:80px;
+                  height:100px;
+                  word-break:keep-all;
+
+                  @media (min-width: $screen-size-pc) {
+                    font-size:16px;
+                    width:95px;
+                    height:110px;
+                  }
+                  
+
+                  &.type {
+                    background:#BED4A8;
+                  }
+
+                  p {
+                    margin:0;
+                  }
+
+                  i {
+                    position:absolute;
+                    font-size:30px;
+                    right:-30px;
+                    top:50%;
+                    transform:translateY(-50%);
+                    color:#aaa;
+                  }
+                }
+              }
+            }
+          }
+
+          div.text-table01 {
+            overflow-x:scroll;
+            margin:0 0 20px;
+
+            @media (min-width: $screen-size-pc) {
+              overflow-x:auto;
+            }
+
+            table {
+              border-top:2px solid #004C85;
+              min-width:600px;
+
+              @media (min-width: $screen-size-pc) {
+                min-width:100%;
+              }
+  
+  
+              thead {
+                background:#0A79CE;
+  
+                tr {
+                  th {
+                    text-align:center;
+                    font-weight:500;
+                    font-size:14px;
+                    border-right:1px solid #ccc;
+                    border-bottom:1px solid #ccc;
+                    color:#fff;
+                    padding:10px 0;
+
+                    @media (min-width: $screen-size-pc) {
+                      font-size:16px;
+                      padding:15px 0;
+                    }
+  
+                    &:last-of-type {
+                      border-right:none;
+                    }
+                  }
+                  
+                }
+              }
+  
+              tbody {
+                tr {
+                  th {
+                    border-bottom:1px solid #ccc;
+                    padding:10px 5px;
+                    text-align:center;
+                    font-weight:500;
+                    background:#eee;
+                    font-size:14px;
+
+                    @media (min-width: $screen-size-pc) {
+                      font-size:16px;
+                      padding:20px 0;
+                    }
+  
+                  }
+  
+                  td {
+                    text-align:center;
+                    word-break:keep-all;
+                    font-size:14px;
+                    border-left:1px solid #ccc;
+                    border-bottom:1px solid #ccc;
+                    width:42%;
+                    padding:10px 5px 5px;
+
+                    @media (min-width: $screen-size-pc) {
+                      font-size:16px;
+                      padding:20px 10px 15px;
+                    }
+
+                    p {
+                      margin:0 0 5px;
+                    }
+  
+                  }
+  
+                }
+              }
             }
           }
 

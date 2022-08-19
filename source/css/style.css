@@ -589,6 +589,7 @@ button {
   font-size: 18px;
   color: #555;
   font-weight: 500;
+  border-radius: 10px;
 }
 @media (min-width: 1200px) {
   .btn {
@@ -598,7 +599,7 @@ button {
   }
 }
 .btn.main {
-  background: #029AD4;
+  background: #0A79CE;
   border: 1px solid transparent;
   color: #fff;
   border-color: transparent;
@@ -634,7 +635,7 @@ button {
 }
 
 .btn-set {
-  margin: 20px 0;
+  margin: 30px 0 50px;
   font-size: 0;
 }
 .btn-set.center {
@@ -2078,7 +2079,7 @@ body div#content.main section.main-links div.container div a {
   display: block;
   font-size: 14px;
   color: #fff;
-  background: #0061B1;
+  background: #0A79CE;
   width: 138px;
   line-height: 38px;
   border-radius: 6px;
@@ -2142,12 +2143,12 @@ body div#content.sub section.sub-content {
   min-height: 300px;
 }
 body div#content.sub section.sub-content div.container {
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
   }
 }
@@ -2182,13 +2183,277 @@ body div#content.sub section.sub-content div.container ul.navigation {
 body div#content.sub section.sub-content div.container h3.stitle {
   text-align: center;
   font-size: 20px;
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   font-weight: 800;
+  word-break: keep-all;
 }
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container h3.stitle {
-    font-size: 30px;
+    font-size: 40px;
   }
+}
+body div#content.sub section.sub-content div.container h3.stitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+}
+body div#content.sub section.sub-content div.container u {
+  text-decoration: none;
+  font-weight: 500;
+  color: #D64646;
+}
+body div#content.sub section.sub-content div.container p.text {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #555;
+  word-break: keep-all;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container p.text {
+    font-size: 16px;
+  }
+}
+body div#content.sub section.sub-content div.container p.text.center {
+  text-align: center;
+}
+body div#content.sub section.sub-content div.container p.attention {
+  position: relative;
+  padding: 0 0 0 18px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #555;
+  word-break: keep-all;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container p.attention {
+    font-size: 16px;
+    padding: 0 0 0 20px;
+  }
+}
+body div#content.sub section.sub-content div.container p.attention::before {
+  content: "※";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container p.attention {
+    font-size: 16px;
+  }
+}
+body div#content.sub section.sub-content div.container p.attention span {
+  display: block;
+}
+body div#content.sub section.sub-content div.container dl.text-box {
+  margin: 20px 0;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container dl.text-box {
+    width: 100%;
+  }
+}
+body div#content.sub section.sub-content div.container dl.text-box dt {
+  background: #0A79CE;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container dl.text-box dt {
+    float: left;
+    width: 260px;
+    height: 100%;
+    text-align: left;
+    padding: 30px;
+    font-size: 26px;
+    font-weight: 600;
+    background: none;
+    color: #222;
+  }
+}
+body div#content.sub section.sub-content div.container dl.text-box dd {
+  padding: 10px;
+  margin: 0 0 20px;
+  border: 1px solid #0A79CE;
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container dl.text-box dd {
+    position: relative;
+    padding: 30px 30px 30px 280px;
+    min-height: 100px;
+    border-color: #ccc;
+    font-size: 16px;
+  }
+  body div#content.sub section.sub-content div.container dl.text-box dd::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 240px;
+    top: 30px;
+    bottom: 30px;
+    width: 1px;
+    background: #ccc;
+  }
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.text {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.text li {
+  position: relative;
+  padding: 0 0 0 14px;
+  margin: 0 0 6px;
+  font-size: 14px;
+  word-break: keep-all;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container dl.text-box dd ul.text li {
+    font-size: 16px;
+  }
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.text li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 3px;
+  height: 3px;
+  background: #999;
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.text li div.ex-box {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container dl.text-box dd ul.text li div.ex-box {
+    padding: 20px;
+    margin: 20px 0;
+  }
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.text li div.ex-box strong {
+  display: block;
+  font-weight: 600;
+  margin: 0 0 5px;
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.chart {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.chart li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  background: #A8BFD4;
+  vertical-align: top;
+  border-radius: 10px;
+  margin: 0 30px 10px 0;
+  text-align: center;
+  padding: 20px 0;
+  width: 80px;
+  height: 100px;
+  word-break: keep-all;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container dl.text-box dd ul.chart li {
+    font-size: 16px;
+    width: 95px;
+    height: 110px;
+  }
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.chart li.type {
+  background: #BED4A8;
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.chart li p {
+  margin: 0;
+}
+body div#content.sub section.sub-content div.container dl.text-box dd ul.chart li i {
+  position: absolute;
+  font-size: 30px;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+body div#content.sub section.sub-content div.container div.text-table01 {
+  overflow-x: scroll;
+  margin: 0 0 20px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.text-table01 {
+    overflow-x: auto;
+  }
+}
+body div#content.sub section.sub-content div.container div.text-table01 table {
+  border-top: 2px solid #004C85;
+  min-width: 600px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.text-table01 table {
+    min-width: 100%;
+  }
+}
+body div#content.sub section.sub-content div.container div.text-table01 table thead {
+  background: #0A79CE;
+}
+body div#content.sub section.sub-content div.container div.text-table01 table thead tr th {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #fff;
+  padding: 10px 0;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.text-table01 table thead tr th {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+}
+body div#content.sub section.sub-content div.container div.text-table01 table thead tr th:last-of-type {
+  border-right: none;
+}
+body div#content.sub section.sub-content div.container div.text-table01 table tbody tr th {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 5px;
+  text-align: center;
+  font-weight: 500;
+  background: #eee;
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.text-table01 table tbody tr th {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+}
+body div#content.sub section.sub-content div.container div.text-table01 table tbody tr td {
+  text-align: center;
+  word-break: keep-all;
+  font-size: 14px;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 42%;
+  padding: 10px 5px 5px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.text-table01 table tbody tr td {
+    font-size: 16px;
+    padding: 20px 10px 15px;
+  }
+}
+body div#content.sub section.sub-content div.container div.text-table01 table tbody tr td p {
+  margin: 0 0 5px;
 }
 body footer#footer {
   text-align: center;
