@@ -2613,7 +2613,7 @@ body div#content.sub section.sub-content div.container div.parking-head dl {
 }
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container div.parking-head dl {
-    padding: 30px 30px 4px;
+    padding: 30px 30px 14px;
   }
 }
 body div#content.sub section.sub-content div.container div.parking-head dl dt {
