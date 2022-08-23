@@ -1373,7 +1373,6 @@ body {
               &.total {
                 display:block;
                 font-size:20px;
-                margin-top:10px;
 
                 @media (min-width: $screen-size-pc) {
                   font-size:28px;
@@ -1383,6 +1382,11 @@ body {
                   color:#FFB300;
                 }
               }
+
+            }
+
+            p + p.total {
+              margin-top:10px;
 
             }
           }

@@ -3088,7 +3088,6 @@ body div#content.sub section.sub-content div.container div.total p strong {
 body div#content.sub section.sub-content div.container div.total p.total {
   display: block;
   font-size: 20px;
-  margin-top: 10px;
 }
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container div.total p.total {
@@ -3097,6 +3096,9 @@ body div#content.sub section.sub-content div.container div.total p.total {
 }
 body div#content.sub section.sub-content div.container div.total p.total strong {
   color: #FFB300;
+}
+body div#content.sub section.sub-content div.container div.total p + p.total {
+  margin-top: 10px;
 }
 body footer#footer {
   text-align: center;
