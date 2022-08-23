@@ -443,6 +443,18 @@ body {
 
           }
 
+          i.error {
+            font-size:14px;
+            line-height:32px;
+            font-style:normal;
+            color:#D64646;
+
+            @media (min-width: $screen-size-pc) {
+              font-size:16px;
+              padding:0 20px;
+            }
+          }
+
           dl.text-box {
             margin:20px 0;
 
@@ -989,18 +1001,6 @@ body {
                   color:#0A79CE;
                   border-color:#0A79CE;
                 }
-
-                i {
-                  font-size:14px;
-                  line-height:32px;
-                  font-style:normal;
-                  color:#D64646;
-
-                  @media (min-width: $screen-size-pc) {
-                    font-size:16px;
-                    padding:0 20px;
-                  }
-                }
               }
             }
 
@@ -1009,6 +1009,7 @@ body {
           p.all-agree {
             // background:#f0f0f0;
             position:relative;
+
             border:1px solid #ccc;
             padding:20px;
             margin:0;

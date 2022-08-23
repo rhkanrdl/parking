@@ -2258,6 +2258,18 @@ body div#content.sub section.sub-content div.container p.attention::before {
 body div#content.sub section.sub-content div.container p.attention span {
   display: block;
 }
+body div#content.sub section.sub-content div.container i.error {
+  font-size: 14px;
+  line-height: 32px;
+  font-style: normal;
+  color: #D64646;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container i.error {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+}
 body div#content.sub section.sub-content div.container dl.text-box {
   margin: 20px 0;
 }
@@ -2758,18 +2770,6 @@ body div#content.sub section.sub-content div.container fieldset.input-form dl dd
 body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=radio]:checked + label {
   color: #0A79CE;
   border-color: #0A79CE;
-}
-body div#content.sub section.sub-content div.container fieldset.input-form dl dd i {
-  font-size: 14px;
-  line-height: 32px;
-  font-style: normal;
-  color: #D64646;
-}
-@media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container fieldset.input-form dl dd i {
-    font-size: 16px;
-    padding: 0 20px;
-  }
 }
 body div#content.sub section.sub-content div.container p.all-agree {
   position: relative;
