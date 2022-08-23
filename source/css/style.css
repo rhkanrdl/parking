@@ -2771,6 +2771,29 @@ body div#content.sub section.sub-content div.container fieldset.input-form dl dd
     padding: 0 20px;
   }
 }
+body div#content.sub section.sub-content div.container p.all-agree {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+body div#content.sub section.sub-content div.container p.all-agree input {
+  width: 24px;
+  height: 24px;
+}
+body div#content.sub section.sub-content div.container p.all-agree label {
+  vertical-align: top;
+  line-height: 24px;
+  padding: 0 0 0 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container p.all-agree label {
+    font-size: 16px;
+  }
+}
 body div#content.sub section.sub-content div.container div.attention-box {
   background: #f4f4f4;
   padding: 20px;
@@ -2793,7 +2816,7 @@ body div#content.sub section.sub-content div.container div.attention-box h5 {
 }
 body div#content.sub section.sub-content div.container div.attention-box div.box {
   padding: 10px;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   border: 1px solid #ccc;
   background: #fff;
   height: 120px;
@@ -2802,10 +2825,13 @@ body div#content.sub section.sub-content div.container div.attention-box div.box
 }
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container div.attention-box div.box {
-    height: 160px;
+    height: 180px;
     padding: 30px;
-    margin: 0 0 30px;
   }
+}
+body div#content.sub section.sub-content div.container div.attention-box div.box h6 {
+  font-size: 16px;
+  margin: 0 0 10px;
 }
 body div#content.sub section.sub-content div.container div.attention-box div.box u {
   color: #444;
@@ -2819,6 +2845,24 @@ body div#content.sub section.sub-content div.container div.attention-box div.box
 }
 body div#content.sub section.sub-content div.container div.attention-box div.box table thead th {
   color: #444;
+}
+body div#content.sub section.sub-content div.container div.attention-box p.agree {
+  margin: 0 0 30px;
+}
+body div#content.sub section.sub-content div.container div.attention-box p.agree input {
+  width: 24px;
+  height: 24px;
+}
+body div#content.sub section.sub-content div.container div.attention-box p.agree label {
+  vertical-align: top;
+  line-height: 24px;
+  padding: 0 0 0 6px;
+  font-size: 14px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.attention-box p.agree label {
+    font-size: 16px;
+  }
 }
 body footer#footer {
   text-align: center;
