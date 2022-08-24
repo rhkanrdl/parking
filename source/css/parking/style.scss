@@ -102,7 +102,7 @@ body {
             top:0;
             width:52px;
             height:21px;
-            background: url("../images/logo.svg") no-repeat center / 100% auto;
+            background: url("../../images/parking/logo.svg") no-repeat center / 100% auto;
 
             @media (min-width: $screen-size-pc) {
               width:92px;
@@ -124,7 +124,7 @@ body {
           width:180px;
           height:22px;
           font-size:0;
-          background:url(../images/logo-eticket.svg) no-repeat center / 100% auto;
+          background:url(../../images/parking/logo-eticket.svg) no-repeat center / 100% auto;
         }
       }
     }
@@ -138,7 +138,7 @@ body {
     &.main {
 
       section.main-top {
-        background:url(../images/main.png) no-repeat center / cover;
+        background:url(../../images/parking/main.png) no-repeat center / cover;
         text-align:center;
 
         div.container {
@@ -271,7 +271,7 @@ body {
                 transform:translateX(-50%);
                 width:240px;
                 height:190px;
-                background:url(../images/icon-application.svg) no-repeat center / 100% auto;
+                background:url(../../images/parking/icon-application.svg) no-repeat center / 100% auto;
 
                 @media (min-width: $screen-size-pc) {
                   width:324px;
@@ -290,7 +290,7 @@ body {
                 width:300px;
                 height:375px;
                 padding:156px 0 0;
-                background:url(../images/icon-check.svg) no-repeat #2F4150 center top 50px  / 98px auto;
+                background:url(../../images/parking/icon-check.svg) no-repeat #2F4150 center top 50px  / 98px auto;
               }
   
               a {
@@ -1007,6 +1007,20 @@ body {
                   color:#0A79CE;
                   border-color:#0A79CE;
                 }
+
+                i.timer {
+                  display:block;
+                  font-style:normal;
+                  padding:10px 0 0;
+                  font-size:14px;
+                  color:#D64646;
+
+                  @media (min-width: $screen-size-pc) {
+                    display:inline-block;
+                    padding:0 0 0 20px;
+                    font-size:16px;
+                  }
+                }
               }
             }
 
@@ -1429,7 +1443,7 @@ body {
           position:absolute;
           left:0;
           top:0;
-          background:url("../images/logo-footer.png") no-repeat center / 100% auto
+          background:url("../../images/parking/logo-footer.png") no-repeat center / 100% auto
         }
       }
 

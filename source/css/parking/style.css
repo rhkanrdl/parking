@@ -380,37 +380,37 @@ th {
 
 @font-face {
   font-family: "S-CoreDream";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff") format("woff");
+  src: url("../../font/parking/S-CoreDream-2ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "S-CoreDream";
-  src: url("../font/S-CoreDream-4Regular.woff") format("woff");
+  src: url("../../font/parking/S-CoreDream-4Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "S-CoreDream";
-  src: url("../font/S-CoreDream-5Medium.woff") format("woff");
+  src: url("../../font/parking/S-CoreDream-5Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "S-CoreDream";
-  src: url("../font/S-CoreDream-6Bold.woff") format("woff");
+  src: url("../../font/parking/S-CoreDream-6Bold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "S-CoreDream";
-  src: url("../font/S-CoreDream-8Heavy.woff") format("woff");
+  src: url("../../font/parking/S-CoreDream-8Heavy.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "S-CoreDream";
-  src: url("../font/S-CoreDream-9Black.woff") format("woff");
+  src: url("../../font/parking/S-CoreDream-9Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
@@ -1958,7 +1958,7 @@ body header .container h1 a::before {
   top: 0;
   width: 52px;
   height: 21px;
-  background: url("../images/logo.svg") no-repeat center/100% auto;
+  background: url("../../images/parking/logo.svg") no-repeat center/100% auto;
 }
 @media (min-width: 1200px) {
   body header .container h1 a::before {
@@ -1978,14 +1978,14 @@ body header .container > a {
     width: 180px;
     height: 22px;
     font-size: 0;
-    background: url(../images/logo-eticket.svg) no-repeat center/100% auto;
+    background: url(../../images/parking/logo-eticket.svg) no-repeat center/100% auto;
   }
 }
 body div#content {
   /* MAIN */
 }
 body div#content.main section.main-top {
-  background: url(../images/main.png) no-repeat center/cover;
+  background: url(../../images/parking/main.png) no-repeat center/cover;
   text-align: center;
 }
 body div#content.main section.main-top div.container {
@@ -2113,7 +2113,7 @@ body div#content.main section.main-links div.container div.application::before {
   transform: translateX(-50%);
   width: 240px;
   height: 190px;
-  background: url(../images/icon-application.svg) no-repeat center/100% auto;
+  background: url(../../images/parking/icon-application.svg) no-repeat center/100% auto;
 }
 @media (min-width: 1200px) {
   body div#content.main section.main-links div.container div.application::before {
@@ -2132,7 +2132,7 @@ body div#content.main section.main-links div.container div.check {
     width: 300px;
     height: 375px;
     padding: 156px 0 0;
-    background: url(../images/icon-check.svg) no-repeat #2F4150 center top 50px/98px auto;
+    background: url(../../images/parking/icon-check.svg) no-repeat #2F4150 center top 50px/98px auto;
   }
 }
 body div#content.main section.main-links div.container div.check a {
@@ -2778,6 +2778,20 @@ body div#content.sub section.sub-content div.container fieldset.input-form dl dd
   color: #0A79CE;
   border-color: #0A79CE;
 }
+body div#content.sub section.sub-content div.container fieldset.input-form dl dd i.timer {
+  display: block;
+  font-style: normal;
+  padding: 10px 0 0;
+  font-size: 14px;
+  color: #D64646;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container fieldset.input-form dl dd i.timer {
+    display: inline-block;
+    padding: 0 0 0 20px;
+    font-size: 16px;
+  }
+}
 body div#content.sub section.sub-content div.container fieldset.input-form div.radio-box {
   font-size: 0;
 }
@@ -3132,7 +3146,7 @@ body footer#footer div.container h2 {
     position: absolute;
     left: 0;
     top: 0;
-    background: url("../images/logo-footer.png") no-repeat center/100% auto;
+    background: url("../../images/parking/logo-footer.png") no-repeat center/100% auto;
   }
 }
 body footer#footer div.container div.tools {
