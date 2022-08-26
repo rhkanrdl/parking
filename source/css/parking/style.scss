@@ -1116,6 +1116,21 @@ body {
               }
             }
 
+            &>textarea {
+              width:100%;
+              border:1px solid #ccc;
+              background:#fff;
+              height:120px;
+              padding:10px;
+              margin:0 0 20px;
+
+              @media (min-width: $screen-size-pc) {
+                padding:20px;
+                margin:0 0 30px;
+              }
+
+            }
+
             div.box {
               padding:10px;
               margin:0 0 10px;

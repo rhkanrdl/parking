@@ -2871,6 +2871,20 @@ body div#content.sub section.sub-content div.container div.attention-box h5 {
     margin: 0 0 20px;
   }
 }
+body div#content.sub section.sub-content div.container div.attention-box > textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 120px;
+  padding: 10px;
+  margin: 0 0 20px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container div.attention-box > textarea {
+    padding: 20px;
+    margin: 0 0 30px;
+  }
+}
 body div#content.sub section.sub-content div.container div.attention-box div.box {
   padding: 10px;
   margin: 0 0 10px;
