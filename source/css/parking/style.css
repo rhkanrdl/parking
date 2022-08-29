@@ -2198,6 +2198,18 @@ body div#content.sub section.sub-content div.container h3.stitle::after {
   display: block;
   width: 60px;
 }
+body div#content.sub section.sub-content div.container h3.stitle i {
+  display: block;
+  font-size: 60px;
+  color: #ccc;
+  margin: 40px 0 10px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container h3.stitle i {
+    font-size: 100px;
+    margin: 60px 0 20px;
+  }
+}
 body div#content.sub section.sub-content div.container h4.btitle {
   font-size: 18px;
   margin: 0 0 10px;
@@ -2334,7 +2346,7 @@ body div#content.sub section.sub-content div.container ul.text {
   margin: 0 0 20px;
   padding: 0;
 }
-body div#content.sub section.sub-content div.container ul.text li {
+body div#content.sub section.sub-content div.container ul.text > li {
   position: relative;
   padding: 0 0 0 14px;
   margin: 0 0 6px;
@@ -2342,11 +2354,11 @@ body div#content.sub section.sub-content div.container ul.text li {
   word-break: keep-all;
 }
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.text li {
+  body div#content.sub section.sub-content div.container ul.text > li {
     font-size: 16px;
   }
 }
-body div#content.sub section.sub-content div.container ul.text li::before {
+body div#content.sub section.sub-content div.container ul.text > li::before {
   content: "";
   display: block;
   position: absolute;
@@ -2356,18 +2368,40 @@ body div#content.sub section.sub-content div.container ul.text li::before {
   height: 3px;
   background: #999;
 }
-body div#content.sub section.sub-content div.container ul.text li div.ex-box {
+body div#content.sub section.sub-content div.container ul.text > li ul {
+  margin: 4px 0 10px;
+}
+body div#content.sub section.sub-content div.container ul.text > li ul li {
+  position: relative;
+  padding: 0 0 0 14px;
+  margin: 0 0 6px;
+  font-size: 14px;
+  word-break: keep-all;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.text > li ul li {
+    font-size: 16px;
+  }
+}
+body div#content.sub section.sub-content div.container ul.text > li ul li::before {
+  content: "-";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+body div#content.sub section.sub-content div.container ul.text > li div.ex-box {
   background: #f4f4f4;
   padding: 10px;
   margin: 10px 0;
 }
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container ul.text li div.ex-box {
+  body div#content.sub section.sub-content div.container ul.text > li div.ex-box {
     padding: 20px;
     margin: 20px 0;
   }
 }
-body div#content.sub section.sub-content div.container ul.text li div.ex-box strong {
+body div#content.sub section.sub-content div.container ul.text > li div.ex-box strong {
   display: block;
   font-weight: 600;
   margin: 0 0 5px;

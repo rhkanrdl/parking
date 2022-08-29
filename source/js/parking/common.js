@@ -22,13 +22,13 @@ $(function () {
   });
 
 
-  // $("fieldset.input-form dl dd").each(function(){
-  //   if($(this).find("button").length) {
-  //     $(this).addClass("with-btn");
-  //   }
+  $("fieldset.input-form dl dd").each(function(){
+    if($(this).find("button").length) {
+      $(this).addClass("with-btn");
+    }
   
 
-  // });
+  });
 
 
 

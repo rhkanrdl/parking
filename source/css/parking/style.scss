@@ -372,6 +372,18 @@ body {
               display:block;
               width:60px;
             }
+
+            i {
+              display:block;
+              font-size:60px;
+              color:#ccc;
+              margin:40px 0 10px;
+
+              @media (min-width: $screen-size-pc) {
+                font-size:100px;
+                margin:60px 0 20px;
+              }
+            }
           }
 
           h4.btitle {
@@ -526,7 +538,7 @@ body {
             margin:0 0 20px;
             padding:0;
 
-            li {
+            &>li {
               position:relative;
               padding:0 0 0 14px;
               margin:0 0 6px;
@@ -548,6 +560,32 @@ body {
                 height:3px;
                 background:#999;
 
+              }
+
+              ul {
+                margin:4px 0 10px;
+                li {
+                  position:relative;
+                  padding:0 0 0 14px;
+                  margin:0 0 6px;
+                  font-size:14px;
+                  word-break:keep-all;
+    
+                  @media (min-width: $screen-size-pc) {
+                    font-size:16px;
+                    
+                  }
+    
+                  &::before {
+                    content:"-";
+                    display:block;
+                    position:absolute;
+                    left:0;
+                    top:0;
+    
+                  }
+
+                }
               }
 
               div.ex-box {
