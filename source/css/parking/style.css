@@ -1966,11 +1966,30 @@ body header .container h1 a::before {
     height: 36px;
   }
 }
-body header .container > a {
+body header .container a.check {
   display: none;
 }
 @media (min-width: 1200px) {
-  body header .container > a {
+  body header .container a.check {
+    display: block;
+    position: absolute;
+    right: 200px;
+    top: 26px;
+    width: 180px;
+    font-size: 16px;
+    background: #efefef;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #222;
+    font-weight: 600;
+  }
+}
+body header .container a.eticket {
+  display: none;
+}
+@media (min-width: 1200px) {
+  body header .container a.eticket {
     display: block;
     position: absolute;
     right: 0;

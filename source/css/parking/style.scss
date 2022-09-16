@@ -113,7 +113,27 @@ body {
         }
       }
 
-      &>a {
+      a.check {
+        display:none;
+
+        @media (min-width: $screen-size-pc) {
+          display:block;
+          position:absolute;
+          right:200px;
+          top:26px;
+          width:180px;
+          font-size:16px;
+          background:#efefef;
+          text-align:center;
+          padding:10px 20px;
+          border-radius:10px;
+          color:#222;
+          font-weight:600;
+        }
+
+      }
+
+      a.eticket {
         display:none;
 
         @media (min-width: $screen-size-pc) {
