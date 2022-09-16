@@ -2479,7 +2479,7 @@ body div#content.sub section.sub-content div.container div.text-table01 table {
   border-top: 2px solid #004C85;
   min-width: 600px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
   body div#content.sub section.sub-content div.container div.text-table01 table {
     min-width: 100%;
   }
