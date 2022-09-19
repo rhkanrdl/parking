@@ -2924,7 +2924,7 @@ body div#content.sub section.sub-content div.container div.attention-box h5 {
     margin: 0 0 20px;
   }
 }
-body div#content.sub section.sub-content div.container div.attention-box > textarea {
+body div#content.sub section.sub-content div.container div.attention-box textarea.text {
   width: 100%;
   border: 1px solid #ccc;
   background: #fff;
@@ -2933,7 +2933,7 @@ body div#content.sub section.sub-content div.container div.attention-box > texta
   margin: 0 0 20px;
 }
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.attention-box > textarea {
+  body div#content.sub section.sub-content div.container div.attention-box textarea.text {
     padding: 20px;
     margin: 0 0 30px;
   }
