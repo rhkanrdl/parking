@@ -1966,8 +1966,28 @@ body header .container h1 a::before {
     height: 36px;
   }
 }
-body header .container a.check {
-  display: none;
+@media (max-width: 1199px) {
+  body header .container a.check {
+    display: block;
+    position: fixed;
+    z-index: 800;
+    right: 0;
+    bottom: 15px;
+    font-size: 11px;
+    background: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px 0 0 10px;
+    color: #222;
+    box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.4);
+  }
+  body header .container a.check span {
+    display: none;
+  }
+  body header .container a.check i {
+    display: block;
+    font-size: 30px;
+  }
 }
 @media (min-width: 1200px) {
   body header .container a.check {
@@ -1983,6 +2003,9 @@ body header .container a.check {
     border-radius: 10px;
     color: #222;
     font-weight: 600;
+  }
+  body header .container a.check i {
+    display: none;
   }
 }
 body header .container a.eticket {

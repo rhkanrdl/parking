@@ -114,7 +114,30 @@ body {
       }
 
       a.check {
-        display:none;
+
+        @media (max-width: 1199px) {
+          display:block;
+          position:fixed;
+          z-index:800;
+          right:0;
+          bottom:15px;
+          font-size:11px;
+          background:#fff;
+          text-align:center;
+          padding:5px 10px;
+          border-radius:10px 0 0 10px;
+          color:#222;
+          
+          @include drop-shadow($x:0,$y: 3px, $blur: 14px, $spread: 0, $alpha: 0.4);
+          span {
+            display:none;
+          }
+
+          i {
+            display:block;
+            font-size:30px;
+          }
+        }
 
         @media (min-width: $screen-size-pc) {
           display:block;
@@ -129,6 +152,10 @@ body {
           border-radius:10px;
           color:#222;
           font-weight:600;
+
+          i {
+            display:none;
+          }
         }
 
       }
