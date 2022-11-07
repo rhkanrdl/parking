@@ -872,6 +872,10 @@ body {
                   @media (min-width: $screen-size-pc) {
                     margin:0 0 16px 90px;
                   }
+
+                  strong {
+                    color:#222;
+                  }
                 }
               }
 
