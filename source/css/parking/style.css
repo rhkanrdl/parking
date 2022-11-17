@@ -2490,17 +2490,10 @@ body div#content.sub section.sub-content div.container ul.chart li i {
   color: #aaa;
 }
 body div#content.sub section.sub-content div.container div.text-table01 {
-  overflow-x: scroll;
   margin: 0 0 20px;
-}
-@media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container div.text-table01 {
-    overflow-x: auto;
-  }
 }
 body div#content.sub section.sub-content div.container div.text-table01 table {
   border-top: 2px solid #004C85;
-  min-width: 600px;
 }
 @media (min-width: 600px) {
   body div#content.sub section.sub-content div.container div.text-table01 table {
@@ -2544,7 +2537,6 @@ body div#content.sub section.sub-content div.container div.text-table01 table tb
 }
 body div#content.sub section.sub-content div.container div.text-table01 table tbody tr td {
   text-align: center;
-  word-break: keep-all;
   font-size: 14px;
   border-left: 1px solid #ccc;
   border-bottom: 1px solid #ccc;

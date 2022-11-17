@@ -701,16 +701,16 @@ body {
             }
           }
           div.text-table01 {
-            overflow-x:scroll;
+            // overflow-x:scroll;
             margin:0 0 20px;
 
             @media (min-width: $screen-size-pc) {
-              overflow-x:auto;
+              // overflow-x:auto;
             }
 
             table {
               border-top:2px solid #004C85;
-              min-width:600px;
+              // min-width:600px;
 
               @media (min-width: 600px) {
                 min-width:100%;
@@ -763,7 +763,7 @@ body {
   
                   td {
                     text-align:center;
-                    word-break:keep-all;
+                    // word-break:keep-all;
                     font-size:14px;
                     border-left:1px solid #ccc;
                     border-bottom:1px solid #ccc;
