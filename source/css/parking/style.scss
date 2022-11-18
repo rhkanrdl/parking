@@ -672,13 +672,13 @@ body {
               text-align:center;
               padding:20px 0;
               width:80px;
-              height:100px;
+              height:84px;
               word-break:keep-all;
 
               @media (min-width: $screen-size-pc) {
                 font-size:16px;
                 width:95px;
-                height:110px;
+                height:100px;
               }
               
 
@@ -686,8 +686,17 @@ body {
                 background:#BED4A8;
               }
 
-              p {
-                margin:0;
+              div {
+                position:absolute;
+                left:0;
+                right:0;
+                top:50%;
+                transform:translateY(-50%);
+
+                p {
+                  margin:0;
+                }
+
               }
 
               i {
