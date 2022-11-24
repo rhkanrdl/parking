@@ -609,6 +609,11 @@ button {
   color: #fff;
   border-color: transparent;
 }
+.btn.gray {
+  background: #444;
+  color: #fff;
+  border-color: transparent;
+}
 .btn.btn-ms {
   line-height: 26px;
   font-size: 13px;
