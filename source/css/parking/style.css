@@ -3166,6 +3166,24 @@ body div#content.sub section.sub-content div.container ul.result-list li.complet
 body div#content.sub section.sub-content div.container ul.result-list li.complete h4 small {
   color: #0A79CE;
 }
+body div#content.sub section.sub-content div.container ul.result-list li.complete a {
+  background-color: #0A79CE;
+}
+body div#content.sub section.sub-content div.container ul.result-list li.complete a.cancle {
+  background-color: #555;
+  margin: 0 0 10px;
+  border-radius: 6px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub section.sub-content div.container ul.result-list li.complete a.cancle {
+    position: absolute;
+    right: 220px;
+    bottom: 30px;
+    line-height: 64px;
+    padding: 0 60px;
+    margin: 0;
+  }
+}
 body div#content.sub section.sub-content div.container ul.result-list li.refund {
   border-color: #D64646;
 }

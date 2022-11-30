@@ -1458,6 +1458,25 @@ body {
                     color:#0A79CE;
                   }
                 }
+
+                a {
+                  background-color:#0A79CE;
+
+                  &.cancle {
+                    background-color:#555;
+                    margin:0 0 10px;
+                    border-radius:6px;
+    
+                    @media (min-width: $screen-size-pc) {
+                      position:absolute;
+                      right:220px;
+                      bottom:30px;
+                      line-height:64px;
+                      padding:0 60px;
+                      margin:0;
+                    }
+                  }
+                }
               }
 
               &.refund {
