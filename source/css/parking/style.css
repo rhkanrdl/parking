@@ -476,7 +476,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a,
-.pagenation strong {
+  .pagenation strong {
     width: 46px;
     line-height: 46px;
   }
@@ -514,9 +514,6 @@ s input[type=password] {
   font-family: sans-serif;
 }
 s input[type=password]::-moz-placeholder {
-  font-family: "S-CoreDream", "Malgun Gothic", "apple sd gothic neo", sans-serif;
-}
-s input[type=password]:-ms-input-placeholder {
   font-family: "S-CoreDream", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 s input[type=password]::placeholder {
@@ -1460,8 +1457,8 @@ div.input dl dd input[type=date] {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text],
-div.input dl dd input[type=password],
-div.input dl dd input[type=date] {
+  div.input dl dd input[type=password],
+  div.input dl dd input[type=date] {
     width: 570px;
     height: 48px;
     font-size: 16px;
@@ -1498,8 +1495,8 @@ div.input dl dd input[type=date].with-button {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-button,
-div.input dl dd input[type=password].with-button,
-div.input dl dd input[type=date].with-button {
+  div.input dl dd input[type=password].with-button,
+  div.input dl dd input[type=date].with-button {
     width: 428px;
   }
 }
@@ -1511,8 +1508,8 @@ div.input dl dd input[type=date].with-mail {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-mail,
-div.input dl dd input[type=password].with-mail,
-div.input dl dd input[type=date].with-mail {
+  div.input dl dd input[type=password].with-mail,
+  div.input dl dd input[type=date].with-mail {
     width: 266px;
   }
 }
@@ -1523,8 +1520,8 @@ div.input dl dd input[type=date].tel {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].tel,
-div.input dl dd input[type=password].tel,
-div.input dl dd input[type=date].tel {
+  div.input dl dd input[type=password].tel,
+  div.input dl dd input[type=date].tel {
     width: 176px;
   }
 }
@@ -1535,8 +1532,8 @@ div.input dl dd input[type=date].date {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].date,
-div.input dl dd input[type=password].date,
-div.input dl dd input[type=date].date {
+  div.input dl dd input[type=password].date,
+  div.input dl dd input[type=date].date {
     width: 176px;
   }
 }
@@ -2792,8 +2789,8 @@ body div#content.sub section.sub-content div.container fieldset.input-form dl dd
 }
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=text],
-body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=date],
-body div#content.sub section.sub-content div.container fieldset.input-form dl dd select {
+  body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=date],
+  body div#content.sub section.sub-content div.container fieldset.input-form dl dd select {
     width: 400px;
     height: 46px;
     font-size: 16px;
@@ -2802,19 +2799,18 @@ body div#content.sub section.sub-content div.container fieldset.input-form dl dd
 body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=text]::-moz-placeholder, body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=date]::-moz-placeholder, body div#content.sub section.sub-content div.container fieldset.input-form dl dd select::-moz-placeholder {
   color: #999;
 }
-body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=text]:-ms-input-placeholder, body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=date]:-ms-input-placeholder, body div#content.sub section.sub-content div.container fieldset.input-form dl dd select:-ms-input-placeholder {
-  color: #999;
-}
 body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=text]::placeholder,
 body div#content.sub section.sub-content div.container fieldset.input-form dl dd input[type=date]::placeholder,
 body div#content.sub section.sub-content div.container fieldset.input-form dl dd select::placeholder {
   color: #999;
 }
-body div#content.sub section.sub-content div.container fieldset.input-form dl dd.with-btn input[type=text] {
+body div#content.sub section.sub-content div.container fieldset.input-form dl dd.with-btn input[type=text],
+body div#content.sub section.sub-content div.container fieldset.input-form dl dd.with-btn input[type=date] {
   width: calc(100% - 100px);
 }
 @media (min-width: 1200px) {
-  body div#content.sub section.sub-content div.container fieldset.input-form dl dd.with-btn input[type=text] {
+  body div#content.sub section.sub-content div.container fieldset.input-form dl dd.with-btn input[type=text],
+  body div#content.sub section.sub-content div.container fieldset.input-form dl dd.with-btn input[type=date] {
     width: 300px;
   }
 }
@@ -3106,7 +3102,7 @@ body div#content.sub section.sub-content div.container ul.result-list li a {
 }
 @media (min-width: 1200px) {
   body div#content.sub section.sub-content div.container ul.result-list li span,
-body div#content.sub section.sub-content div.container ul.result-list li a {
+  body div#content.sub section.sub-content div.container ul.result-list li a {
     position: absolute;
     right: 30px;
     bottom: 30px;
