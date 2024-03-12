@@ -2563,6 +2563,9 @@ body div#content.sub section.sub-content div.container div.text-table01 table tb
 body div#content.sub section.sub-content div.container div.text-table01 table tbody tr td p {
   margin: 0 0 5px;
 }
+body div#content.sub section.sub-content div.container div.text-table01.no-width table tbody tr td {
+  width: auto;
+}
 body div#content.sub section.sub-content div.container ul.parking-list {
   margin: 0;
   padding: 0;

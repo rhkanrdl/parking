@@ -795,6 +795,28 @@ body {
                 }
               }
             }
+
+            &.no-width {
+
+
+
+
+              table {
+
+  
+                tbody {
+                  tr {
+                    td {
+                      width:auto;
+    
+                    }
+    
+                  }
+                }
+              }
+
+
+            }
           }
 
           ul.parking-list {
